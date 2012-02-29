@@ -1,0 +1,594 @@
+NDB V1.0
+0000007 0000004 0000200 0000026 0000105
+n00 ginc_debug
+n01 X0_I0_STRINGLIB
+n02 ginc_param_const
+n03 nw_i0_plot
+n04 ginc_event_handlers
+n05 ginc_henchman
+N06 henchman_add_this
+s 03 vector
+sf f x
+sf f y
+sf f z
+s 05 sStringTokenizer
+sf i nRemainingLen
+sf s sOrig
+sf s sRemaining
+sf s sDelim
+sf s sLastTok
+s 02 rNameValuePair
+sf s sName
+sf i iValue
+s 02 rNameValueStringPair
+sf s sName
+sf s sValue
+f ffffffff ffffffff 000 i POST_COLOR_RED
+f ffffffff ffffffff 000 i POST_COLOR_GREEN
+f ffffffff ffffffff 000 i POST_COLOR_BLUE
+f ffffffff ffffffff 000 i POST_COLOR_WHITE
+f ffffffff ffffffff 000 i POST_COLOR_BLACK
+f ffffffff ffffffff 000 i POST_COLOR_OFFSET
+f ffffffff ffffffff 000 i POST_COLOR_DEBUG
+f ffffffff ffffffff 000 i POST_COLOR_ERROR
+f ffffffff ffffffff 000 i LINE_SIZE
+f ffffffff ffffffff 000 i PRETTY_LINE_WRAP
+f ffffffff ffffffff 000 i PRETTY_X_OFFSET
+f ffffffff ffffffff 000 i PRETTY_Y_OFFSET
+f ffffffff ffffffff 000 f PRETTY_DURATION
+f ffffffff ffffffff 000 f DURATION_NORMAL
+f ffffffff ffffffff 000 f DURATION_LONG
+f ffffffff ffffffff 001 o GetFirstPCInFaction
+fp o
+f ffffffff ffffffff 006 v Message
+fp s
+fp i
+fp i
+fp f
+fp i
+fp i
+f ffffffff ffffffff 005 v ErrorMessage
+fp s
+fp i
+fp i
+fp f
+fp i
+f ffffffff ffffffff 005 v DebugMessage
+fp s
+fp i
+fp i
+fp f
+fp i
+f ffffffff ffffffff 002 v OldFunctionMessage
+fp s
+fp s
+f ffffffff ffffffff 005 v MessageLine
+fp i
+fp s
+fp i
+fp f
+fp i
+f ffffffff ffffffff 005 v DebugMessageLine
+fp i
+fp s
+fp i
+fp f
+fp i
+f ffffffff ffffffff 004 v PrettyPostString
+fp o
+fp s
+fp f
+fp i
+f ffffffff ffffffff 003 v PrettyDebug
+fp s
+fp f
+fp i
+f ffffffff ffffffff 003 v PrettyError
+fp s
+fp f
+fp i
+f ffffffff ffffffff 003 v PrettyMessage
+fp s
+fp f
+fp i
+f ffffffff ffffffff 006 v Backdrop
+fp o
+fp s
+fp i
+fp i
+fp f
+fp i
+f ffffffff ffffffff 001 v SendMessageToAllPlayersByStrRef
+fp i
+f ffffffff ffffffff 002 v SendMessageToPartyByStrRef
+fp o
+fp i
+f ffffffff ffffffff 000 i DC_EASY
+f ffffffff ffffffff 000 i DC_MEDIUM
+f ffffffff ffffffff 000 i DC_HARD
+f ffffffff ffffffff 000 i DC_SUPERIOR
+f ffffffff ffffffff 000 i DC_MASTER
+f ffffffff ffffffff 000 i DC_LEGENDARY
+f ffffffff ffffffff 000 i DC_EPIC
+f ffffffff ffffffff 000 i G_CLASSCHANCE
+f ffffffff ffffffff 000 i XP_VERY_LOW
+f ffffffff ffffffff 000 i XP_LOW
+f ffffffff ffffffff 000 i XP_MEDIUM_LOW
+f ffffffff ffffffff 000 i XP_MEDIUM
+f ffffffff ffffffff 000 i XP_MEDIUM_HIGH
+f ffffffff ffffffff 000 i XP_HIGH
+f ffffffff ffffffff 000 i XP_VERY_HIGH
+f ffffffff ffffffff 000 i XP_EPIC
+f ffffffff ffffffff 002 i plotCanRemoveXP
+fp o
+fp i
+f ffffffff ffffffff 001 i GetCanCastHealingSpells
+fp o
+f ffffffff ffffffff 000 i DoOnce
+f ffffffff ffffffff 001 v DebugSpeak
+fp s
+f ffffffff ffffffff 000 o GetMyMaster
+f ffffffff ffffffff 000 i IsRecall
+f ffffffff ffffffff 001 v DimensionHop
+fp o
+f ffffffff ffffffff 000 i CanSeePlayer
+f ffffffff ffffffff 002 v EscapeArea
+fp i
+fp s
+f ffffffff ffffffff 002 i HasItem
+fp o
+fp s
+f ffffffff ffffffff 003 v TakeGold
+fp i
+fp o
+fp i
+f ffffffff ffffffff 004 o GetNearestPC
+fp o
+fp i
+fp i
+fp i
+f ffffffff ffffffff 001 v SetIsEnemy
+fp o
+f ffffffff ffffffff 003 i AutoDC
+fp i
+fp i
+fp o
+f ffffffff ffffffff 002 v AutoAlignG
+fp i
+fp o
+f ffffffff ffffffff 002 v AutoAlignE
+fp i
+fp o
+f ffffffff ffffffff 004 v DoGiveXP
+fp s
+fp i
+fp o
+fp i
+f ffffffff ffffffff 005 v RewardXP
+fp s
+fp i
+fp o
+fp i
+fp i
+f ffffffff ffffffff 003 v RewardGP
+fp i
+fp o
+fp i
+f ffffffff ffffffff 000 i CheckCharismaMiddle
+f ffffffff ffffffff 000 i CheckCharismaNormal
+f ffffffff ffffffff 000 i CheckCharismaLow
+f ffffffff ffffffff 000 i CheckCharismaHigh
+f ffffffff ffffffff 000 i CheckIntelligenceLow
+f ffffffff ffffffff 000 i CheckIntelligenceNormal
+f ffffffff ffffffff 000 i CheckIntelligenceHigh
+f ffffffff ffffffff 000 i CheckWisdomHigh
+f ffffffff ffffffff 001 i GetWisdom
+fp o
+f ffffffff ffffffff 001 i GetIntelligence
+fp o
+f ffffffff ffffffff 001 i GetCharisma
+fp o
+f ffffffff ffffffff 002 i GetNumItems
+fp o
+fp s
+f ffffffff ffffffff 003 v GiveNumItems
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v TakeNumItems
+fp o
+fp s
+fp i
+f ffffffff ffffffff 001 v PlayCharacterTheme
+fp i
+f ffffffff ffffffff 000 v PlayOldTheme
+f ffffffff ffffffff 002 i GetPLocalInt
+fp o
+fp s
+f ffffffff ffffffff 003 v SetPLocalInt
+fp o
+fp s
+fp i
+f ffffffff ffffffff 001 v RemoveEffects
+fp o
+f ffffffff ffffffff 004 v gplotAppraiseOpenStore
+fp o
+fp o
+fp i
+fp i
+f ffffffff ffffffff 004 v gplotAppraiseFavOpenStore
+fp o
+fp o
+fp i
+fp i
+f ffffffff ffffffff 003 i CheckDCStr
+fp i
+fp i
+fp o
+f ffffffff ffffffff 001 i GetIsPlayerCharacter
+fp o
+f ffffffff ffffffff 004 v Reward_2daXP
+fp o
+fp i
+fp i
+fp i
+f ffffffff ffffffff 001 v PlaySpeakSoundByStrRef
+fp i
+f ffffffff ffffffff 001 i GetNPCEasyMark
+fp o
+f ffffffff ffffffff 001 f GetReactionAdjustment
+fp o
+f ffffffff ffffffff 003 v AdjustFactionReputation
+fp o
+fp o
+fp i
+f ffffffff ffffffff 001 v EscapeViaTeleport
+fp o
+f ffffffff ffffffff 002 i HasGold
+fp i
+fp o
+f ffffffff ffffffff 002 t0001 GetStringTokenizer
+fp s
+fp s
+f ffffffff ffffffff 001 i HasMoreTokens
+fp t0001
+f ffffffff ffffffff 001 t0001 AdvanceToNextToken
+fp t0001
+f ffffffff ffffffff 001 s GetNextToken
+fp t0001
+f ffffffff ffffffff 002 i GetNumberTokens
+fp s
+fp s
+f ffffffff ffffffff 003 s GetTokenByPosition
+fp s
+fp s
+fp i
+f ffffffff ffffffff 002 t0002 GetFirstAlpha
+fp s
+fp s
+f ffffffff ffffffff 003 s RemoveListElement
+fp s
+fp s
+fp s
+f ffffffff ffffffff 002 s Sort
+fp s
+fp s
+f ffffffff ffffffff 002 s FormListElement
+fp s
+fp s
+f ffffffff ffffffff 003 s AppendToList
+fp s
+fp s
+fp s
+f ffffffff ffffffff 003 i FindListElementIndex
+fp s
+fp s
+fp s
+f ffffffff ffffffff 003 i GetIsInList
+fp s
+fp s
+fp s
+f ffffffff ffffffff 003 s AppendUniqueToList
+fp s
+fp s
+fp s
+f ffffffff ffffffff 004 s AppendGlobalList
+fp s
+fp s
+fp i
+fp s
+f ffffffff ffffffff 003 s GetStringPad
+fp s
+fp i
+fp s
+f ffffffff ffffffff 003 s ReplaceSubString
+fp s
+fp s
+fp s
+f ffffffff ffffffff 003 s ReplaceAllSubStrings
+fp s
+fp s
+fp s
+f ffffffff ffffffff 003 s SpliceString
+fp s
+fp i
+fp i
+f ffffffff ffffffff 000 s TARGET_KEY
+f ffffffff ffffffff 000 s TARGET_OBJECT_SELF
+f ffffffff ffffffff 000 s TARGET_OWNER
+f ffffffff ffffffff 000 s TARGET_OWNED_CHAR
+f ffffffff ffffffff 000 s TARGET_PC
+f ffffffff ffffffff 000 s TARGET_PC_LEADER
+f ffffffff ffffffff 000 s TARGET_PC_NEAREST
+f ffffffff ffffffff 000 s TARGET_PC_SPEAKER
+f ffffffff ffffffff 000 s TARGET_MODULE
+f ffffffff ffffffff 000 s TARGET_LAST_SPEAKER
+f ffffffff ffffffff 000 s PARAM_COMMONER
+f ffffffff ffffffff 000 s PARAM_DEFENDER
+f ffffffff ffffffff 000 s PARAM_HOSTILE
+f ffffffff ffffffff 000 s PARAM_MERCHANT
+f ffffffff ffffffff 002 o GetTarget
+fp s
+fp s
+f ffffffff ffffffff 003 f GetFloatParam
+fp s
+fp i
+fp s
+f ffffffff ffffffff 003 i GetIntParam
+fp s
+fp i
+fp s
+f ffffffff ffffffff 003 s GetStringParam
+fp s
+fp i
+fp s
+f ffffffff ffffffff 001 i IsParameterConstant
+fp s
+f ffffffff ffffffff 001 i GetObjectTypes
+fp s
+f ffffffff ffffffff 001 i GetDurationType
+fp s
+f ffffffff ffffffff 001 i GetStandardFaction
+fp s
+f ffffffff ffffffff 001 s GetInfluenceVarName
+fp s
+f ffffffff ffffffff 001 i GetSkillConstant
+fp i
+f ffffffff ffffffff 001 o GetSoundObjectByTag
+fp s
+f ffffffff ffffffff 002 t0003 GetNameValuePairStruct
+fp s
+fp s
+f ffffffff ffffffff 002 s GetNVPValue
+fp s
+fp s
+f ffffffff ffffffff 002 s RemoveNVP
+fp s
+fp s
+f ffffffff ffffffff 004 s AppendUniqueToNVP
+fp s
+fp s
+fp s
+fp s
+f ffffffff ffffffff 001 s StringTrim
+fp s
+f ffffffff ffffffff 002 s GetTrimmedStringParam
+fp s
+fp i
+f ffffffff ffffffff 000 i EVENT_PLACEABLE_SPAWN
+f ffffffff ffffffff 000 s EVENTS_CLEARED_FLAG
+f ffffffff ffffffff 000 s EVENTS_SAVE_PREFIX
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_ATTACK
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_BLOCK
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_COMBAT
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_CONV
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_DAMAGE
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_DEATH
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_DISTRB
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_HEART
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_PERCEP
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_REST
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_SPAWN
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_SPELL
+f ffffffff ffffffff 000 s SCRIPT_ASSOC_USRDEF
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_ATTACK
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_BLOCK
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_COMBAT
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_CONV
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_DAMAGE
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_DEATH
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_DISTRB
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_HEART
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_PERCEP
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_REST
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_SPAWN
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_SPELL
+f ffffffff ffffffff 000 s SCRIPT_DEFAULT_USRDEF
+f ffffffff ffffffff 000 s SCRIPT_OBJECT_NOTHING
+f 000006bc 000008a9 001 v SetAssociateEventHandlers
+fp o
+f ffffffff ffffffff 002 v ConvertToAssociateEventHandler
+fp i
+fp s
+f ffffffff ffffffff 001 i GetEventsClearedFlag
+fp o
+f ffffffff ffffffff 002 v SetEventsClearedFlag
+fp o
+fp i
+f 0000043b 000006bc 001 i GetNumScripts
+fp o
+f 00000359 0000043b 001 v SaveEventHandlers
+fp o
+f ffffffff ffffffff 002 v SetAllEventHandlers
+fp o
+fp s
+f ffffffff ffffffff 001 v ClearEventHandlers
+fp o
+f ffffffff ffffffff 001 v RestoreEventHandlers
+fp o
+f ffffffff ffffffff 001 v DeleteSavedEventHandlers
+fp o
+f ffffffff ffffffff 001 v SafeClearEventHandlers
+fp o
+f ffffffff ffffffff 001 v SafeRestoreEventHandlers
+fp o
+f ffffffff ffffffff 001 v ReportEventHandlers
+fp o
+f 00000298 00000359 001 i GetNumHenchmen
+fp o
+f ffffffff ffffffff 002 i GetIsHenchman
+fp o
+fp o
+f ffffffff ffffffff 000 s sStoreScript_Prefix
+f ffffffff ffffffff 000 s sScriptsStored
+f ffffffff ffffffff 000 s sMasterRef
+f 000000d4 00000298 004 i HenchmanAdd
+fp o
+fp o
+fp i
+fp i
+f ffffffff ffffffff 002 i HenchmanRemove
+fp o
+fp o
+f ffffffff ffffffff 001 v DestroyHenchman
+fp o
+f ffffffff ffffffff 001 v DestroyAllHenchmen
+fp o
+f ffffffff ffffffff 001 v DestroyAllHenchmenInParty
+fp o
+f 0000004e 000000d4 002 v main
+fp i
+fp i
+f 0000000d 00000015 000 v #loader
+f 00000015 0000004e 000 v #globals
+v 00000017 ffffffff 00000000 s PRETTY_LINE_COUNT_VAR
+v 0000004e 000000cc 00000000 i bOverrideBehavior
+v 0000004e 000000cc 00000004 i bForce
+v 00000050 000000c6 00000008 o oMaster
+v 00000052 000000c6 0000000c o oHench
+v 000000d4 00000296 00000000 i #retval
+v 000000d4 00000290 00000004 i bOverrideBehavior
+v 000000d4 00000290 00000008 i bForce
+v 000000d4 00000290 0000000c o oHench
+v 000000d4 00000290 00000010 o oMaster
+v 000000d6 0000028a 00000014 i nMax
+v 000000eb 0000028a 00000018 i nCur
+v 00000298 00000357 00000000 i #retval
+v 00000298 00000351 00000004 o oMaster
+v 0000029a 0000034b 00000008 i nLoop
+v 0000029c 0000034b 0000000c i nCount
+v 00000359 00000433 00000000 o oObject
+v 0000035b 0000042d 00000004 s sEventHandler
+v 0000035d 0000042d 00000008 s sVarName
+v 0000035f 0000042d 0000000c i iNumScripts
+v 0000037f 0000042d 00000010 i i
+v 0000043b 000006ba 00000000 i #retval
+v 0000043b 000006b4 00000004 o oObject
+v 0000043d 000006ae 00000008 i iObjectType
+v 0000045a 000006ae 0000000c i iNumScripts
+v 000006bc 000008a1 00000000 o oAssociate
+l00 0000048 00000015 0000003c
+l01 0000021 0000003c 0000003c
+l01 0000022 0000003c 0000003c
+l01 0000023 0000003c 0000003c
+l01 0000024 0000003c 0000003c
+l01 0000025 0000003c 0000003c
+l01 0000031 0000003c 0000003c
+l01 0000032 0000003c 0000003c
+l02 0000055 0000003c 0000003c
+l02 0000056 0000003c 0000003c
+l06 0000025 0000004e 00000052
+l06 0000027 00000052 00000084
+l06 0000029 00000084 00000098
+l06 0000031 00000098 000000c6
+l06 0000034 000000cc 000000d4
+l05 0000103 000000d4 000000e9
+l05 0000104 000000e9 00000109
+l05 0000106 00000109 00000111
+l05 0000108 00000117 00000129
+l05 0000110 0000012f 00000144
+l05 0000111 00000144 00000159
+l05 0000112 00000159 00000166
+l05 0000114 0000016c 0000016e
+l05 0000115 0000016e 00000183
+l05 0000117 00000189 0000018b
+l05 0000118 000001a3 000001b8
+l05 0000119 000001be 000001c0
+l05 0000120 000001c0 000001da
+l05 0000122 000001da 000001ff
+l05 0000124 000001ff 00000207
+l05 0000126 0000020d 00000235
+l05 0000144 00000235 00000243
+l05 0000145 00000243 00000251
+l05 0000164 00000251 00000270
+l05 0000166 00000270 0000028a
+l05 0000167 00000290 00000298
+l05 0000036 00000298 000002b0
+l05 0000037 000002b0 000002c4
+l05 0000039 000002e1 000002fb
+l05 0000040 00000301 00000315
+l05 0000037 00000315 00000329
+l05 0000042 0000032f 0000034b
+l05 0000043 00000351 00000359
+l04 0000186 00000359 0000035b
+l04 0000187 0000035b 0000035d
+l04 0000188 0000035d 0000037d
+l04 0000189 0000037d 0000037f
+l04 0000191 0000037f 00000393
+l04 0000193 000003ab 000003ce
+l04 0000194 000003ce 000003f6
+l04 0000195 000003f6 00000413
+l04 0000191 00000413 00000427
+l04 0000197 00000433 0000043b
+l04 0000141 0000043b 00000458
+l04 0000142 00000458 0000046e
+l04 0000145 0000046e 0000056e
+l04 0000147 0000056e 0000056e
+l04 0000148 0000056e 00000582
+l04 0000149 00000582 00000588
+l04 0000150 00000588 00000588
+l04 0000151 00000588 0000059c
+l04 0000152 0000059c 000005a2
+l04 0000153 000005a2 000005a2
+l04 0000154 000005a2 000005b6
+l04 0000155 000005b6 000005bc
+l04 0000156 000005bc 000005bc
+l04 0000157 000005bc 000005d0
+l04 0000158 000005d0 000005d6
+l04 0000159 000005d6 000005d6
+l04 0000160 000005d6 000005ea
+l04 0000161 000005ea 000005f0
+l04 0000162 000005f0 000005f0
+l04 0000163 000005f0 00000604
+l04 0000164 00000604 0000060a
+l04 0000165 0000060a 0000060a
+l04 0000166 0000060a 0000061e
+l04 0000167 0000061e 00000624
+l04 0000168 00000624 00000624
+l04 0000169 00000624 00000638
+l04 0000170 00000638 0000063e
+l04 0000171 0000063e 0000063e
+l04 0000172 0000063e 00000652
+l04 0000173 00000652 00000658
+l04 0000174 00000658 00000658
+l04 0000175 00000658 0000066c
+l04 0000176 0000066c 00000672
+l04 0000177 00000672 00000672
+l04 0000178 00000672 00000686
+l04 0000179 00000686 0000068c
+l04 0000181 00000692 000006ae
+l04 0000182 000006b4 000006bc
+l04 0000070 000006bc 000006e1
+l04 0000071 000006e1 00000707
+l04 0000072 00000707 0000072c
+l04 0000073 0000072c 00000752
+l04 0000074 00000752 00000778
+l04 0000075 00000778 0000079e
+l04 0000076 0000079e 000007c4
+l04 0000077 000007c4 000007e8
+l04 0000078 000007e8 0000080d
+l04 0000079 0000080d 00000831
+l04 0000080 00000831 00000856
+l04 0000081 00000856 0000087c
+l04 0000082 0000087c 000008a1
+l04 0000083 000008a1 000008a9
