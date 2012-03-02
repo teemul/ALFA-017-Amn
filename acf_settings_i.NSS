@@ -31,10 +31,10 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // This is the server number which uniquely indentifies this ALFA server.
-const int ACR_SERVER_ID = 09;
+const int ACR_SERVER_ID = 17;
 
 // This is the name of the server.
-const string ACR_SERVER_NAME = "ALFA 009 Moonshaes";
+const string ACR_SERVER_NAME = "ALFA 017 Amn";
 
 // This is the ip address of the server.
 const string ACR_SERVER_IP = "###.###.###.###:####";
