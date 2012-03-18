@@ -2,9 +2,9 @@
 //
 //  System Name : ACR Configuration File
 //     Filename : acf_area_onhbeat.nss
-//      Version : 0.1
-//         Date : 7/25/06
-//       Author : Ronan
+//      Version : 0.2
+//         Date : 3/8/21
+//       Author : t-ice
 //
 //  Local Variable Prefix =
 //
@@ -16,6 +16,10 @@
 //  server may need. It is not updated in ACR updates.
 //
 //  Revision History
+//
+//	0.2 Added standard NESS spawn calls so that old Exodus/Amn
+//  (atmosphere) spawns work
+//
 ////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -23,6 +27,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "acr_area_i"
+#include "spawn_main"
 
 ////////////////////////////////////////////////////////////////////////////////
 // Constants ///////////////////////////////////////////////////////////////////
@@ -51,4 +56,6 @@ void main() {
     ACR_AreaOnHeartbeat();
 
     // Custom code goes below this line.
+	
+	Spawn();
 }
