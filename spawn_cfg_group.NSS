@@ -533,6 +533,73 @@ string SpawnGroup(object oSpawn, string sTemplate)
         }
     }
 
+	if (sTemplate == "townnpcs")
+    {
+        switch(d20(1))
+        {
+            case 1:
+            sRetTemplate = "exodus_waukacol";
+            break;
+            case 2:
+            sRetTemplate = "exodus_begger01";
+            break;
+            case 3:
+            sRetTemplate = "exodus_child1";
+            break;
+            case 4:
+            sRetTemplate = "exodus_child";
+            break;
+            case 5:
+            sRetTemplate = "skaug_commoner_13";
+            break;
+            case 6:
+            sRetTemplate = "skaug_commoner_16";
+            break;
+            case 7:
+            sRetTemplate = "skaug_commoner_14";
+            break;
+            case 8:
+            sRetTemplate = "skaug_commoner_15";
+            break;
+            case 9:
+            sRetTemplate = "skaug_commoner_11";
+            break;
+            case 10:
+            sRetTemplate = "skaug_commoner_12";
+            break;
+            case 11:
+            sRetTemplate = "skaug_commoner_09";
+            break;
+            case 12:
+            sRetTemplate = "skaug_commoner_11b";
+            break;
+            case 13:
+            sRetTemplate = "exodus_whore";
+            break;
+            case 14:
+            sRetTemplate = "tg_cr_merchant01";
+            break;
+            case 15:
+            sRetTemplate = "c_st01_desertmerchant04";
+            break;
+            case 16:
+            sRetTemplate = "c_st01_desertmerchant4";
+            break;
+            case 17:
+            sRetTemplate = "c_st01_desertmerchant5";
+            break;
+            case 18:
+            sRetTemplate = "amn_noble2";
+            break;
+            case 19:
+            sRetTemplate = "exodus_pirate06";
+            break;
+            case 20:
+            sRetTemplate = "amn_noblef3";
+            break;		
+        }
+    }
+
 
 // -------------------------------------------
 // Only Make Modifications Between These Lines
