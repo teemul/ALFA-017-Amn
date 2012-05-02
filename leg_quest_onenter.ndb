@@ -1,0 +1,871 @@
+NDB V1.0
+0000010 0000001 0000313 0000017 0000034
+n00 nwnx_include
+n01 acr_array_i
+n02 acr_queue_i
+n03 acr_settings_i
+n04 acr_db_persist_i
+n05 nwnx_sql
+n06 nw_i0_plot
+n07 leg_all_masterinclude
+n08 leg_quest_include
+N09 leg_quest_onenter
+s 03 vector
+sf f x
+sf f y
+sf f z
+f ffffffff ffffffff 000 i MAXQUESTS
+f ffffffff ffffffff 000 i LEG_QUEST_DEEDSHOUTS
+f ffffffff ffffffff 000 i LEG_QUEST_ICONS
+f ffffffff ffffffff 000 i JOURNAL_OVERRIDE
+f ffffffff ffffffff 000 s QUESTPREFIX
+f ffffffff ffffffff 000 s COLOUR_WHITE
+f ffffffff ffffffff 000 s COLOUR_LIGHT_GREY
+f ffffffff ffffffff 000 s COLOUR_GREY
+f ffffffff ffffffff 000 s COLOUR_DARK_GREY
+f ffffffff ffffffff 000 s COLOUR_BLACK
+f ffffffff ffffffff 000 s COLOUR_LIGHT_RED
+f ffffffff ffffffff 000 s COLOUR_LIGHT_GREEN
+f ffffffff ffffffff 000 s COLOUR_LIGHT_BLUE
+f ffffffff ffffffff 000 s COLOUR_LIGHT_YELLOW
+f ffffffff ffffffff 000 s COLOUR_LIGHT_PURPLE
+f ffffffff ffffffff 000 s COLOUR_LIGHT_CYAN
+f ffffffff ffffffff 000 s COLOUR_RED
+f ffffffff ffffffff 000 s COLOUR_GREEN
+f ffffffff ffffffff 000 s COLOUR_BLUE
+f ffffffff ffffffff 000 s COLOUR_YELLOW
+f ffffffff ffffffff 000 s COLOUR_PURPLE
+f ffffffff ffffffff 000 s COLOUR_CYAN
+f ffffffff ffffffff 000 s COLOUR_ORANGE
+f ffffffff ffffffff 000 s COLOUR_DARK_RED
+f ffffffff ffffffff 000 s COLOUR_DARK_GREEN
+f ffffffff ffffffff 000 s COLOUR_DARK_BLUE
+f ffffffff ffffffff 000 s COLOUR_DARK_YELLOW
+f ffffffff ffffffff 000 s COLOUR_DARK_PURPLE
+f ffffffff ffffffff 000 s COLOUR_DARK_CYAN
+f ffffffff ffffffff 000 i GAME_MINUTES
+f ffffffff ffffffff 000 i REAL_MINUTES
+f ffffffff ffffffff 000 i TIME_HOUR_DAWN
+f ffffffff ffffffff 000 i TIME_HOUR_DUSK
+f ffffffff ffffffff 000 i GAME_START_YEAR
+f ffffffff ffffffff 000 s PCPREFIX
+f ffffffff ffffffff 000 s DBNAME
+f ffffffff ffffffff 000 i NWNXInstalled
+f ffffffff ffffffff 000 i NWNXGetPluginCount
+f ffffffff ffffffff 001 s NWNXGetPluginClass
+fp i
+f ffffffff ffffffff 001 s NWNXGetPluginSubClass
+fp s
+f ffffffff ffffffff 001 s NWNXGetPluginVersion
+fp s
+f ffffffff ffffffff 001 s NWNXGetPluginDescription
+fp s
+f ffffffff ffffffff 003 s GetLocalArrayString
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 i GetLocalArrayInt
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 f GetLocalArrayFloat
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 e2 GetLocalArrayLocation
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 o GetLocalArrayObject
+fp o
+fp s
+fp i
+f ffffffff ffffffff 004 v SetLocalArrayInt
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 004 v SetLocalArrayFloat
+fp o
+fp s
+fp i
+fp f
+f ffffffff ffffffff 004 v SetLocalArrayObject
+fp o
+fp s
+fp i
+fp o
+f ffffffff ffffffff 004 v SetLocalArrayLocation
+fp o
+fp s
+fp i
+fp e2
+f ffffffff ffffffff 004 v SetLocalArrayString
+fp o
+fp s
+fp i
+fp s
+f ffffffff ffffffff 003 v DeleteLocalArrayInt
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v DeleteLocalArrayFloat
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v DeleteLocalArrayString
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v DeleteLocalArrayLocation
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v DeleteLocalArrayObject
+fp o
+fp s
+fp i
+f ffffffff ffffffff 004 v DeleteLocalArrayInts
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 004 v DeleteLocalArrayFloats
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 004 v DeleteLocalArrayStrings
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 004 v DeleteLocalArrayLocations
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 004 v DeleteLocalArrayObjects
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 005 v LoadStringArrayIntoCustomTokens
+fp o
+fp s
+fp i
+fp i
+fp i
+f ffffffff ffffffff 000 s _ACR_QUEUE_HEAD_LI
+f ffffffff ffffffff 000 s _ACR_QUEUE_TAIL_LI
+f ffffffff ffffffff 003 v PushQueueString
+fp o
+fp s
+fp s
+f ffffffff ffffffff 002 s PopQueueString
+fp o
+fp s
+f ffffffff ffffffff 002 i GetQueueLength
+fp o
+fp s
+f ffffffff ffffffff 000 s _ACR_SETTINGS_SERVER_ID
+f ffffffff ffffffff 000 s _ACR_SETTINGS_SERVER_NAME
+f ffffffff ffffffff 000 s _ACR_SETTINGS_SERVER_REGION
+f ffffffff ffffffff 000 s _ACR_SETTINGS_SERVER_IP
+f ffffffff ffffffff 000 i ACR_GetServerId
+f ffffffff ffffffff 000 i ACR_GetServerID
+f ffffffff ffffffff 000 s ACR_GetServerName
+f ffffffff ffffffff 000 i ACR_GetServerRegion
+f ffffffff ffffffff 000 s ACR_GetServerIp
+f ffffffff ffffffff 004 v SetServerData
+fp i
+fp s
+fp i
+fp s
+f ffffffff ffffffff 000 i SQL_ERROR
+f ffffffff ffffffff 000 i SQL_SUCCESS
+f ffffffff ffffffff 000 s ACR_CID
+f ffffffff ffffffff 000 s ACR_PID
+f ffffffff ffffffff 000 s ACR_SRVADMIN
+f ffffffff ffffffff 000 s ACR_DISABLE_STATISTICS
+f ffffffff ffffffff 000 i ACR_SRVADMIN_INDETERMINITE
+f ffffffff ffffffff 000 i ACR_SRVADMIN_IS_ADMIN
+f ffffffff ffffffff 000 i ACR_SRVADMIN_NOT_ADMIN
+f ffffffff ffffffff 000 i ACR_CHARACTER_ID_NONE
+f ffffffff ffffffff 000 s ACR_PLAYERSTATUS_CACHE_VAR
+f ffffffff ffffffff 000 s ACR_CDKEY
+f ffffffff ffffffff 000 s ACR_DB_FAILURES
+f ffffffff ffffffff 000 f _ACR_DB_SQL_ASYNC_WRITE_HEARTBEAT_DELAY
+f ffffffff ffffffff 000 s _ACR_DB_SQL_QUEUE
+f ffffffff ffffffff 000 s _ACR_DB_CONTROL_FLAGS_VAR
+f ffffffff ffffffff 000 s _ACR_DB_SQL_PENDING_QUERY_VAR
+f ffffffff ffffffff 000 s _ACR_DB_SQL_SERVER_BOOT_TIME_VAR
+f ffffffff ffffffff 000 s _ACR_DB_SQL_SERVER_BOOT_TIME_MOD_VAR
+f ffffffff ffffffff 000 s _ACR_DB_SQL_PERSIST_CACHE_VAR_PREFIX
+f ffffffff ffffffff 000 i _ACR_DB_SQL_PERSIST_CACHE_VAR_PREFIX_LEN
+f ffffffff ffffffff 000 i _ACR_SQL_SAQ_FLUSHALL
+f ffffffff ffffffff 000 i _ACR_SQL_DBCTRL_DATABASE_OFFLINE
+f ffffffff ffffffff 000 i _ACR_SQL_DBCTRL_ASYNC_PENDING
+f ffffffff ffffffff 000 i _ACR_SQL_QUERY_MAX_LEN
+f ffffffff ffffffff 000 s ACR_DTH_CORPSE_RESREF
+f ffffffff ffffffff 000 s ACR_DTH_BODY_RESREF
+f ffffffff ffffffff 000 i ACR_PC_LOCAL_FLAG_PORTAL_IN_PROGRESS
+f ffffffff ffffffff 000 i ACR_PC_LOCAL_FLAG_PORTAL_COMMITTED
+f ffffffff ffffffff 000 i ACR_PC_LOCAL_FLAG_SERVER_TELL_HELP
+f ffffffff ffffffff 000 i ACR_QUERY_LOW_PRIORITY
+f ffffffff ffffffff 000 v ACR_StartAsyncService
+f ffffffff ffffffff 000 v ACR_LoadDatabaseConfiguration
+f ffffffff ffffffff 001 v ACR_AsyncSQLQuery
+fp s
+f ffffffff ffffffff 003 v ACR_AsyncSQLQueryEx
+fp s
+fp o
+fp i
+f ffffffff ffffffff 001 v ACR_SQLQuery
+fp s
+f ffffffff ffffffff 001 i ACR_SQLFetch
+fp s
+f ffffffff ffffffff 001 s ACR_SQLGetData
+fp i
+f ffffffff ffffffff 000 i ACR_SQLGetAffectedRows
+f ffffffff ffffffff 001 v ACR_IncrementStatistic
+fp s
+f ffffffff ffffffff 004 v ACR_SetPersistentString
+fp o
+fp s
+fp s
+fp i
+f ffffffff ffffffff 004 v ACR_SetPersistentStringNoTimestamp
+fp o
+fp s
+fp s
+fp i
+f ffffffff ffffffff 004 v ACR_SetPersistentInt
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 004 v ACR_SetPersistentFloat
+fp o
+fp s
+fp f
+fp i
+f ffffffff ffffffff 004 v ACR_SetPersistentLocation
+fp o
+fp s
+fp e2
+fp i
+f ffffffff ffffffff 004 v ACR_SetPersistentVector
+fp o
+fp s
+fp t0000
+fp i
+f ffffffff ffffffff 005 v ACR_SetPersistentObject
+fp o
+fp s
+fp o
+fp s
+fp i
+f ffffffff ffffffff 002 s ACR_GetPersistentString
+fp o
+fp s
+f ffffffff ffffffff 002 i ACR_GetPersistentInt
+fp o
+fp s
+f ffffffff ffffffff 002 f ACR_GetPersistentFloat
+fp o
+fp s
+f ffffffff ffffffff 002 e2 ACR_GetPersistentLocation
+fp o
+fp s
+f ffffffff ffffffff 002 t0000 ACR_GetPersistentVector
+fp o
+fp s
+f ffffffff ffffffff 003 o ACR_GetPersistentObject
+fp o
+fp s
+fp s
+f ffffffff ffffffff 002 v ACR_DeletePersistentVariable
+fp o
+fp s
+f ffffffff ffffffff 001 s ACR_SQLEncodeSpecialChars
+fp s
+f ffffffff ffffffff 001 s ACR_LocationToString
+fp e2
+f ffffffff ffffffff 001 e2 ACR_StringToLocation
+fp s
+f ffffffff ffffffff 001 s ACR_VectorToString
+fp t0000
+f ffffffff ffffffff 001 t0000 ACR_StringToVector
+fp s
+f ffffffff ffffffff 001 v ACR_SetPCPublicCDKey
+fp o
+f ffffffff ffffffff 001 s ACR_GetPCPublicCDKey
+fp o
+f ffffffff ffffffff 003 v ACR_SetCharacterID
+fp o
+fp i
+fp i
+f ffffffff ffffffff 001 i ACR_GetCharacterID
+fp o
+f ffffffff ffffffff 001 i ACR_GetPlayerID
+fp o
+f ffffffff ffffffff 001 i ACR_IsServerAdmin
+fp o
+f ffffffff ffffffff 001 i ACR_GetPCLocalFlags
+fp o
+f ffffffff ffffffff 002 v ACR_SetPCLocalFlags
+fp o
+fp i
+f ffffffff ffffffff 000 v ACR_CreateSQLTables
+f ffffffff ffffffff 000 v ACR_ResetDatabase
+f ffffffff ffffffff 000 v ACR_AdjustTables
+f ffffffff ffffffff 001 v ACR_DBPersistOnIncomingPlayer
+fp o
+f ffffffff ffffffff 001 v ACR_DBPersistOnOutgoingPlayer
+fp o
+f ffffffff ffffffff 000 i ACR_GetUTCTime
+f ffffffff ffffffff 000 i ACR_GetModuleStartTime
+f ffffffff ffffffff 001 v ACR_FlushQueryQueue
+fp o
+f ffffffff ffffffff 000 s ACR_GetServerAddressFromDatabase
+f ffffffff ffffffff 003 i ACR_LoadObjectVariablesFromPersistStore
+fp o
+fp o
+fp s
+f ffffffff ffffffff 003 v ACR_SaveObjectVariablesToPersistStore
+fp o
+fp o
+fp s
+f ffffffff ffffffff 000 v _ResetServer
+f ffffffff ffffffff 000 v _ServiceAsyncQueries
+f ffffffff ffffffff 004 i _ServiceAsyncQueriesForQueue
+fp o
+fp i
+fp i
+fp o
+f ffffffff ffffffff 001 v _FlushQueryQueue
+fp o
+f ffffffff ffffffff 004 v _ExecuteQueryQueues
+fp i
+fp o
+fp o
+fp i
+f ffffffff ffffffff 001 v _RunQueryQueue
+fp i
+f ffffffff ffffffff 001 i _GetTotalQueuedQueryCount
+fp o
+f ffffffff ffffffff 000 i _GetDatabaseControlFlags
+f ffffffff ffffffff 001 v _SetDatabaseControlFlags
+fp i
+f ffffffff ffffffff 002 v _MaintainACRPersistCache
+fp o
+fp s
+f ffffffff ffffffff 001 v _ClearACRPersistCache
+fp o
+f ffffffff ffffffff 001 i _CalculateTargetMaxQueriesServiced
+fp i
+f ffffffff ffffffff 001 v _SQLQueryInternal
+fp s
+f ffffffff ffffffff 001 i _SQLQueryReturnsValues
+fp s
+f 00000379 000003a7 001 v SQLExecDirect
+fp s
+f 000003a7 000003e6 001 i SQLFetch
+fp s
+f 000003e6 0000042d 001 s SQLGetData
+fp i
+f ffffffff ffffffff 001 s SQLGetDataText
+fp i
+f ffffffff ffffffff 000 i SQLGetAffectedRows
+f ffffffff ffffffff 001 s SQLLocationToString
+fp e2
+f ffffffff ffffffff 001 e2 SQLStringToLocation
+fp s
+f ffffffff ffffffff 001 s SQLVectorToString
+fp t0000
+f ffffffff ffffffff 001 t0000 SQLStringToVector
+fp s
+f ffffffff ffffffff 005 v SetPersistentString
+fp o
+fp s
+fp s
+fp i
+fp s
+f ffffffff ffffffff 005 v SetPersistentInt
+fp o
+fp s
+fp i
+fp i
+fp s
+f ffffffff ffffffff 005 v SetPersistentFloat
+fp o
+fp s
+fp f
+fp i
+fp s
+f ffffffff ffffffff 005 v SetPersistentLocation
+fp o
+fp s
+fp e2
+fp i
+fp s
+f ffffffff ffffffff 005 v SetPersistentVector
+fp o
+fp s
+fp t0000
+fp i
+fp s
+f ffffffff ffffffff 005 v SetPersistentObject
+fp o
+fp s
+fp o
+fp i
+fp s
+f ffffffff ffffffff 003 s GetPersistentString
+fp o
+fp s
+fp s
+f 00000172 0000032e 003 i GetPersistentInt
+fp o
+fp s
+fp s
+f ffffffff ffffffff 003 f GetPersistentFloat
+fp o
+fp s
+fp s
+f ffffffff ffffffff 003 e2 GetPersistentLocation
+fp o
+fp s
+fp s
+f ffffffff ffffffff 003 t0000 GetPersistentVector
+fp o
+fp s
+fp s
+f ffffffff ffffffff 004 o GetPersistentObject
+fp o
+fp s
+fp o
+fp s
+f ffffffff ffffffff 003 v DeletePersistentVariable
+fp o
+fp s
+fp s
+f 0000032e 00000379 001 s SQLEncodeSpecialChars
+fp s
+f ffffffff ffffffff 000 i DC_EASY
+f ffffffff ffffffff 000 i DC_MEDIUM
+f ffffffff ffffffff 000 i DC_HARD
+f ffffffff ffffffff 000 i DC_SUPERIOR
+f ffffffff ffffffff 000 i DC_MASTER
+f ffffffff ffffffff 000 i DC_LEGENDARY
+f ffffffff ffffffff 000 i DC_EPIC
+f ffffffff ffffffff 000 i G_CLASSCHANCE
+f ffffffff ffffffff 000 i XP_VERY_LOW
+f ffffffff ffffffff 000 i XP_LOW
+f ffffffff ffffffff 000 i XP_MEDIUM_LOW
+f ffffffff ffffffff 000 i XP_MEDIUM
+f ffffffff ffffffff 000 i XP_MEDIUM_HIGH
+f ffffffff ffffffff 000 i XP_HIGH
+f ffffffff ffffffff 000 i XP_VERY_HIGH
+f ffffffff ffffffff 000 i XP_EPIC
+f ffffffff ffffffff 002 i plotCanRemoveXP
+fp o
+fp i
+f ffffffff ffffffff 001 i GetCanCastHealingSpells
+fp o
+f ffffffff ffffffff 000 i DoOnce
+f ffffffff ffffffff 001 v DebugSpeak
+fp s
+f ffffffff ffffffff 000 o GetMyMaster
+f ffffffff ffffffff 000 i IsRecall
+f ffffffff ffffffff 001 v DimensionHop
+fp o
+f ffffffff ffffffff 000 i CanSeePlayer
+f ffffffff ffffffff 002 v EscapeArea
+fp i
+fp s
+f ffffffff ffffffff 002 i HasItem
+fp o
+fp s
+f ffffffff ffffffff 003 v TakeGold
+fp i
+fp o
+fp i
+f ffffffff ffffffff 004 o GetNearestPC
+fp o
+fp i
+fp i
+fp i
+f ffffffff ffffffff 001 v SetIsEnemy
+fp o
+f ffffffff ffffffff 003 i AutoDC
+fp i
+fp i
+fp o
+f ffffffff ffffffff 002 v AutoAlignG
+fp i
+fp o
+f ffffffff ffffffff 002 v AutoAlignE
+fp i
+fp o
+f ffffffff ffffffff 004 v DoGiveXP
+fp s
+fp i
+fp o
+fp i
+f ffffffff ffffffff 005 v RewardXP
+fp s
+fp i
+fp o
+fp i
+fp i
+f ffffffff ffffffff 003 v RewardGP
+fp i
+fp o
+fp i
+f ffffffff ffffffff 000 i CheckCharismaMiddle
+f ffffffff ffffffff 000 i CheckCharismaNormal
+f ffffffff ffffffff 000 i CheckCharismaLow
+f ffffffff ffffffff 000 i CheckCharismaHigh
+f ffffffff ffffffff 000 i CheckIntelligenceLow
+f ffffffff ffffffff 000 i CheckIntelligenceNormal
+f ffffffff ffffffff 000 i CheckIntelligenceHigh
+f ffffffff ffffffff 000 i CheckWisdomHigh
+f ffffffff ffffffff 001 i GetWisdom
+fp o
+f ffffffff ffffffff 001 i GetIntelligence
+fp o
+f ffffffff ffffffff 001 i GetCharisma
+fp o
+f ffffffff ffffffff 002 i GetNumItems
+fp o
+fp s
+f ffffffff ffffffff 003 v GiveNumItems
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v TakeNumItems
+fp o
+fp s
+fp i
+f ffffffff ffffffff 001 v PlayCharacterTheme
+fp i
+f ffffffff ffffffff 000 v PlayOldTheme
+f ffffffff ffffffff 002 i GetPLocalInt
+fp o
+fp s
+f ffffffff ffffffff 003 v SetPLocalInt
+fp o
+fp s
+fp i
+f ffffffff ffffffff 001 v RemoveEffects
+fp o
+f ffffffff ffffffff 004 v gplotAppraiseOpenStore
+fp o
+fp o
+fp i
+fp i
+f ffffffff ffffffff 004 v gplotAppraiseFavOpenStore
+fp o
+fp o
+fp i
+fp i
+f ffffffff ffffffff 003 i CheckDCStr
+fp i
+fp i
+fp o
+f ffffffff ffffffff 001 i GetIsPlayerCharacter
+fp o
+f ffffffff ffffffff 004 v Reward_2daXP
+fp o
+fp i
+fp i
+fp i
+f ffffffff ffffffff 001 v PlaySpeakSoundByStrRef
+fp i
+f ffffffff ffffffff 001 i GetNPCEasyMark
+fp o
+f ffffffff ffffffff 001 f GetReactionAdjustment
+fp o
+f ffffffff ffffffff 003 v AdjustFactionReputation
+fp o
+fp o
+fp i
+f ffffffff ffffffff 001 v EscapeViaTeleport
+fp o
+f ffffffff ffffffff 002 i HasGold
+fp i
+fp o
+f ffffffff ffffffff 004 i LEG_COMMON_GetPersistentInt
+fp s
+fp o
+fp s
+fp s
+f ffffffff ffffffff 005 v LEG_COMMON_SetPersistentInt
+fp s
+fp o
+fp s
+fp i
+fp s
+f ffffffff ffffffff 001 s LEG_COMMON_GeneratePass
+fp i
+f ffffffff ffffffff 000 i LEG_COMMON_GetGameTimeMinute
+f ffffffff ffffffff 000 i LEG_COMMON_TimeStamp
+f ffffffff ffffffff 002 v LEG_COMMON_TimeOfDeath
+fp o
+fp o
+f ffffffff ffffffff 002 v LEG_COMMON_TimeOfBirth
+fp o
+fp o
+f ffffffff ffffffff 005 o LEG_COMMON_CreateItem
+fp o
+fp s
+fp i
+fp o
+fp s
+f ffffffff ffffffff 001 v LEG_COMMON_DestroyInventory
+fp o
+f ffffffff ffffffff 004 v LEG_COMMON_DisplayInfoBox
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 001 i LEG_COMMON_StringToHour
+fp s
+f ffffffff ffffffff 001 s LEG_COMMON_StripBadChars
+fp s
+f ffffffff ffffffff 002 o LEG_COMMON_GetInventoryItemByTag
+fp o
+fp s
+f ffffffff ffffffff 002 i LEG_COMMON_GetInventoryCount
+fp o
+fp s
+f ffffffff ffffffff 003 s LEG_COMMON_DestroyItems
+fp o
+fp s
+fp i
+f ffffffff ffffffff 002 s LEG_COMMON_GetPCTable
+fp o
+fp s
+f ffffffff ffffffff 002 i LEG_COMMON_CheckTOD
+fp s
+fp s
+f ffffffff ffffffff 006 v LEG_COMMON_ProgBar
+fp o
+fp i
+fp s
+fp i
+fp i
+fp i
+f ffffffff ffffffff 001 i LEG_COMMON_GetItemLevel
+fp o
+f ffffffff ffffffff 002 s LEG_COMMON_GetTimeNon24
+fp i
+fp i
+f ffffffff ffffffff 001 s LEG_COMMON_GetMonthName
+fp i
+f ffffffff ffffffff 003 v LEG_COMMON_AddArrayElement
+fp o
+fp s
+fp s
+f ffffffff ffffffff 003 v LEG_COMMON_DeleteArrayElement
+fp o
+fp s
+fp i
+f ffffffff ffffffff 002 v LEG_COMMON_DeleteCurrentArrayElement
+fp o
+fp s
+f ffffffff ffffffff 002 s LEG_COMMON_GetFirstArrayElement
+fp o
+fp s
+f ffffffff ffffffff 002 s LEG_COMMON_GetNextArrayElement
+fp o
+fp s
+f ffffffff ffffffff 003 s LEG_COMMON_GetArrayElement
+fp o
+fp s
+fp i
+f ffffffff ffffffff 004 v LEG_COMMON_SetArrayElement
+fp o
+fp s
+fp i
+fp s
+f ffffffff ffffffff 002 v LEG_COMMON_ResetArrayIndex
+fp o
+fp s
+f ffffffff ffffffff 002 i LEG_COMMON_GetCurrentArrayIndex
+fp o
+fp s
+f ffffffff ffffffff 002 i LEG_COMMON_GetArrayElementCount
+fp o
+fp s
+f ffffffff ffffffff 002 v LEG_COMMON_CompressArray
+fp o
+fp s
+f ffffffff ffffffff 003 v LEG_COMMON_RenameArray
+fp o
+fp s
+fp s
+f ffffffff ffffffff 002 v LEG_COMMON_ClearArray
+fp o
+fp s
+f ffffffff ffffffff 003 s LEG_COMMON_TextReplace
+fp s
+fp s
+fp s
+f ffffffff ffffffff 005 i LEG_COMMON_SpecificTimeStamp
+fp i
+fp i
+fp i
+fp i
+fp i
+f ffffffff ffffffff 002 s LEG_COMMON_GetItemName
+fp o
+fp s
+f ffffffff ffffffff 001 s LEG_QUEST_GetOneLiner
+fp s
+f ffffffff ffffffff 001 s LEG_QUEST_GetPostOneLiner
+fp s
+f ffffffff ffffffff 004 i LEG_QUEST_CheckOtherObjectives
+fp o
+fp s
+fp i
+fp i
+f ffffffff ffffffff 003 v LEG_QUEST_CompleteObjectives
+fp o
+fp s
+fp i
+f ffffffff ffffffff 003 v LEG_QUEST_ClearObjectives
+fp o
+fp s
+fp s
+f ffffffff ffffffff 003 i LEG_QUEST_CheckObjectives
+fp o
+fp s
+fp i
+f ffffffff ffffffff 001 s LEG_QUEST_RewardsText
+fp s
+f ffffffff ffffffff 002 s LEG_QUEST_ChallengeColor
+fp o
+fp i
+f ffffffff ffffffff 007 v LEG_QUEST_FireQuestGUI
+fp s
+fp s
+fp o
+fp i
+fp s
+fp i
+fp i
+f ffffffff ffffffff 003 v LEG_QUEST_RefreshQuestIcon
+fp o
+fp o
+fp o
+f ffffffff ffffffff 002 v LEG_QUEST_GiveFeat
+fp o
+fp i
+f ffffffff ffffffff 011 v LEG_QUEST_QuestCreditItem
+fp s
+fp o
+fp s
+fp i
+fp i
+fp i
+fp i
+fp i
+fp i
+fp s
+fp i
+f ffffffff ffffffff 008 v LEG_QUEST_ObjectiveCredit
+fp s
+fp o
+fp s
+fp s
+fp i
+fp i
+fp i
+fp s
+f ffffffff ffffffff 011 v LEG_QUEST_QuestCreditPlaceItem
+fp s
+fp o
+fp s
+fp i
+fp i
+fp i
+fp i
+fp i
+fp i
+fp i
+fp s
+f ffffffff ffffffff 010 v LEG_QUEST_QuestCreditDestroyPlaceable
+fp s
+fp o
+fp s
+fp i
+fp i
+fp i
+fp i
+fp i
+fp i
+fp s
+f ffffffff ffffffff 007 v LEG_QUEST_QuestCreditExaminePlaceable
+fp s
+fp o
+fp s
+fp i
+fp i
+fp i
+fp s
+f 00000015 00000172 000 v main
+f 0000000d 00000015 000 v #loader
+v 00000017 0000016a 00000000 o oPC
+v 0000002d 0000016a 00000004 o oSpawnPoint
+v 000000ab 00000145 00000008 s sWPTag
+v 00000172 0000032c 00000000 i #retval
+v 00000172 00000326 00000004 s sTable
+v 00000172 00000326 00000008 s sVarName
+v 00000172 00000326 0000000c o oObject
+v 00000174 00000320 00000010 s sPlayer
+v 00000176 00000320 00000014 s sTag
+v 00000225 00000320 00000018 s sSQL
+v 0000032e 00000377 00000000 s #retval
+v 0000032e 00000371 00000004 s sString
+v 00000379 0000039f 00000000 s sSQL
+v 000003a7 000003e4 00000000 i #retval
+v 000003a7 000003de 00000004 s mode
+v 000003e6 0000042b 00000000 s #retval
+v 000003e6 00000425 00000004 i iCol
+l09 0000030 00000015 0000002b
+l09 0000031 0000002b 00000046
+l09 0000032 00000046 00000059
+l09 0000034 00000059 000000a3
+l09 0000036 000000a9 000000c6
+l09 0000037 000000c6 000000f7
+l09 0000040 000000fd 0000012a
+l09 0000041 0000012a 00000145
+l09 0000046 0000014b 00000164
+l09 0000048 00000170 00000172
+l05 0000356 00000172 00000174
+l05 0000357 00000174 00000176
+l05 0000359 00000176 00000183
+l05 0000361 00000189 000001ac
+l05 0000362 000001ac 000001cf
+l05 0000364 000001d5 000001d7
+l05 0000366 000001d7 000001ea
+l05 0000367 000001ea 00000205
+l05 0000370 00000205 00000223
+l05 0000372 00000223 000002ae
+l05 0000374 000002ae 000002bc
+l05 0000376 000002bc 000002d1
+l05 0000377 000002d7 000002fe
+l05 0000378 00000304 00000306
+l05 0000379 00000306 00000320
+l05 0000380 00000326 0000032e
+l05 0000533 0000032e 00000371
+l05 0000534 00000371 00000379
+l05 0000154 00000379 0000039f
+l05 0000155 0000039f 000003a7
+l05 0000159 000003a7 000003de
+l05 0000160 000003de 000003e6
+l05 0000164 000003e6 00000425
+l05 0000165 00000425 0000042d
