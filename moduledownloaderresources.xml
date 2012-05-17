@@ -1860,4 +1860,10 @@
       <string>3</string>
     </server-ref>
   </resource>
+  <resource type="Hak" hash="2EF012F1E3AC5172857189DCBD46F6893A1C83F4" downloadHash="199F6E26387ED0E80730D56DD54469038490E76E" name="leg_quest_nojournal.hak" dlsize="5246" size="44772" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
 </content>
