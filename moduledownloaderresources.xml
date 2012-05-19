@@ -1782,12 +1782,6 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="DA39A3EE5E6B4B0D3255BFEF95601890AFD80709" downloadHash="FF1B0CB02CFAF69E0BF6DA88FDA61BEBE01058B6" name="readme." dlsize="18" size="0" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="Tlk" hash="43E95D5CA83A7F65DB9847096E587554BB5E8D7F" downloadHash="F5664C7DAD586EC287EE14DE1E8B69F31AC83E82" name="alfa_acr02.tlk" dlsize="126532" size="1085792" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
@@ -1858,12 +1852,6 @@
     <server-ref>
       <string>2</string>
       <string>3</string>
-    </server-ref>
-  </resource>
-  <resource type="Hak" hash="2EF012F1E3AC5172857189DCBD46F6893A1C83F4" downloadHash="199F6E26387ED0E80730D56DD54469038490E76E" name="leg_quest_nojournal.hak" dlsize="5246" size="44772" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
     </server-ref>
   </resource>
 </content>
