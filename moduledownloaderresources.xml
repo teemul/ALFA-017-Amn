@@ -516,7 +516,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="985E1F85E81B5F72294F2B7F7D555353B4D05D72" downloadHash="89483902E55A408383CB2ADA88F2FB71097886E2" name="017_startarea.trx" dlsize="88776" size="90879" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="EA5C07DF18ACB2693DCFAAF12948AE75EEF1FFF2" downloadHash="C994D373967D0C3A1ED28029683C0FDDEC8C6633" name="017_startarea.trx" dlsize="85769" size="87986" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
