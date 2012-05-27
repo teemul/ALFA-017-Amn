@@ -210,12 +210,6 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="AD4599005202865C983C23A656E232675628D6AD" downloadHash="83F9BF78E0F682B63B0A322D547E15512F7BEC66" name="skaug's temple.trx" dlsize="64898" size="65623" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="DirectoryEntry" hash="0FA2F24D744C3C333A117ECF68C6F0BB68318123" downloadHash="69F0F27EC5AC154401441E4FF7537004149C9A1F" name="a hillside with mine.trx" dlsize="1781590" size="10457305" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
@@ -307,12 +301,6 @@
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="344A10C627052EB8049967FA36E02821B663119A" downloadHash="CB44F900CA4A6352A47B9F8CF8BE8F9830BE09D3" name="amn.trx" dlsize="4708830" size="23773061" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="2D5FBE13C756F657F2299D6040DFC75E69051A3B" downloadHash="B671FCB1ED12D331083B46D31162335634589F45" name="trollmount mine level 1.trx" dlsize="95922" size="96223" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -463,12 +451,6 @@
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="ACF468F7D490C4C83784B474D87D385054297CE6" downloadHash="AA65527ACBFC09BB31085E7F51C8846C078D5E2D" name="waters edge.trx" dlsize="33082" size="33115" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="B4D14713F21FFCE279BAABCCCD1E7AC01E695B3F" downloadHash="2AEF3EF7DA298730CEDEF684FD104A5E629DFB44" name="village house.trx" dlsize="133168" size="133969" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -774,25 +756,13 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="7517A22B5DC6A9A10DFF0E2C2BE71D40ED855C80" downloadHash="DBCC6CE2619990A7C4236646B464C5D3220E6B7D" name="the gilded spur.trx" dlsize="82743" size="83291" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="C9BAE15371C366B39A6E78A1B4112C6647692EEC" downloadHash="C66B03EC32ABDE59C69C04157C59A189D2DE8C0C" name="triad mine level 3.trx" dlsize="91298" size="91450" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="D6A1671A75B6AF663E165E45EA6451907AB8607F" downloadHash="ADCD020996B33266D17C8217C28FC6A61432F863" name="the gilded spur.trx" dlsize="83150" size="83700" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="1E9323B484738C65D16B7296A0B8F8092D2C421F" downloadHash="E58E264578AFF49E5F805A799AC37BFC88DF0024" name="deep woods cave.trx" dlsize="68109" size="68180" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="A65A06B286D3A64410D66B97FCE2C4C60084CF1D" downloadHash="73CB57BF42B14355919B9DE936F9B664D0EB2821" name="amn_quarantine.trx" dlsize="28822" size="29310" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1086,19 +1056,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="C9BAE15371C366B39A6E78A1B4112C6647692EEC" downloadHash="C66B03EC32ABDE59C69C04157C59A189D2DE8C0C" name="trollmount mine level 3.trx" dlsize="91298" size="91450" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="DirectoryEntry" hash="92F18C778C9A68218667F73BA2FC561250B58183" downloadHash="AC67EEE9712DC30404BAEE455229D8FA3D3A8221" name="ravenstar hall.trx" dlsize="70844" size="71104" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="2D5FBE13C756F657F2299D6040DFC75E69051A3B" downloadHash="B671FCB1ED12D331083B46D31162335634589F45" name="triad mine level 1.trx" dlsize="95922" size="96223" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1176,12 +1134,6 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="A10627D5113EBF41ADE7DE170FAD44F5744A44FC" downloadHash="C7F4BFCF79E8169B40A17B155AAB6FE995C02895" name="triad mine level 2.trx" dlsize="121812" size="122233" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="DirectoryEntry" hash="67E4344B39C18D9C994BBF8AEE40CC54217763D1" downloadHash="230086DEBDAB1B39AD056DFBED9B03B01725D944" name="quarry.trx" dlsize="2969353" size="9378098" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
@@ -1200,7 +1152,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="EE8D7F83C386A40E3786606753BF10AFADFB5810" downloadHash="48D37186588ED86CC32B0972A7B119595560FC01" name="yhliivast trading coster.trx" dlsize="70379" size="70671" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="4742534388D561151E48463D52723D127D22C625" downloadHash="A3C14002A23430CB6AAC02BDCEE0FB9B345EE978" name="yhliivast trading coster.trx" dlsize="73307" size="73521" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1614,19 +1566,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="B8BE2E0561C185642ED2F8C09FC4D692AB98B36F" downloadHash="01ACB94B98704D2197948E96FC8CFE773859FE00" name="skaug church.trx" dlsize="210769" size="212888" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="DirectoryEntry" hash="4458C290F74A55EC1DBC8FEDE2FEFC02AF0467A0" downloadHash="B0B1B4D52AB4E86FE0776D8D013D8884D3A60CE3" name="keczulla copper residence 3.trx" dlsize="30601" size="163515" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="A10627D5113EBF41ADE7DE170FAD44F5744A44FC" downloadHash="C7F4BFCF79E8169B40A17B155AAB6FE995C02895" name="trollmount mine level 2.trx" dlsize="121812" size="122233" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1852,6 +1792,30 @@
     <server-ref>
       <string>2</string>
       <string>3</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="B4D14713F21FFCE279BAABCCCD1E7AC01E695B3F" downloadHash="2AEF3EF7DA298730CEDEF684FD104A5E629DFB44" name="generic rural house.trx" dlsize="133168" size="133969" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="AD4599005202865C983C23A656E232675628D6AD" downloadHash="83F9BF78E0F682B63B0A322D547E15512F7BEC66" name="generic temple.trx" dlsize="64898" size="65623" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="B8BE2E0561C185642ED2F8C09FC4D692AB98B36F" downloadHash="01ACB94B98704D2197948E96FC8CFE773859FE00" name="generic church.trx" dlsize="210769" size="212888" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="Hak" hash="2EF012F1E3AC5172857189DCBD46F6893A1C83F4" downloadHash="199F6E26387ED0E80730D56DD54469038490E76E" name="leg_quest_nojournal.hak" dlsize="5246" size="44772" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
     </server-ref>
   </resource>
 </content>
