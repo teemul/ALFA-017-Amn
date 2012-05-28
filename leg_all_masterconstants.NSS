@@ -1,5 +1,5 @@
-const int GAME_MINUTES = 2;
-const int REAL_MINUTES = 30;
+const int GAME_MINUTES = 7;
+const int REAL_MINUTES = 8;
 const int TIME_HOUR_DAWN = 6;
 const int TIME_HOUR_DUSK = 18;
 const int GAME_START_YEAR = 1372;
