@@ -1818,4 +1818,28 @@
       <string>1</string>
     </server-ref>
   </resource>
+  <resource type="DirectoryEntry" hash="53281786A6B021B75932F78C77C8CEF1809C25AD" downloadHash="3E7878144FDCCE0868C96CD59E7D0C8AA28C9D1C" name="random guild hall.trx" dlsize="150699" size="151596" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="3F6A5E97751C0B53B24284AE76044473E9969E63" downloadHash="702F5F91A9F504EF298884B855C01B220C755AEE" name="tower of the right hand exterior.trx" dlsize="2637726" size="15095549" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="A29B1F872E823D34F67955ECA0D8023B6545C6DE" downloadHash="06DF744E947EDD9124A52F61D8846E93EE3B656E" name="keczulla merchants guild hall.trx" dlsize="122195" size="123074" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="2EF012F1E3AC5172857189DCBD46F6893A1C83F4" downloadHash="199F6E26387ED0E80730D56DD54469038490E76E" name="leg_quest_nojournal.HAK" dlsize="5246" size="44772" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
 </content>
