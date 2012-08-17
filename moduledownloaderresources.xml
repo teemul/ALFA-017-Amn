@@ -1746,7 +1746,7 @@
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="8282F3F7DF90FACDCA67676BFFC258E69CA63540" downloadHash="D40B88273BE0BA2112BF0B20F9ED903D6BDF6D2B" name="alfa_creatures.hak" dlsize="108900992" size="349457226" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="8282F3F7DF90FACDCA67676BFFC258E69CA63540" downloadHash="23499552CA133495992C01983AD8521B29FB399F" name="alfa_creatures.hak" dlsize="113423149" size="349457226" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
@@ -1831,6 +1831,12 @@
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="A29B1F872E823D34F67955ECA0D8023B6545C6DE" downloadHash="06DF744E947EDD9124A52F61D8846E93EE3B656E" name="keczulla merchants guild hall.trx" dlsize="122195" size="123074" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="Hak" hash="8801E3AC3D63D47A122998F00D398352CA3449AE" downloadHash="57440B88D489CAD3B400A7B456703024983F9876" name="alfa_amn_tiles.hak" dlsize="3759956" size="45778829" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
