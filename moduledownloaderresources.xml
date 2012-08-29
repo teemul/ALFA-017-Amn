@@ -138,12 +138,6 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="4E72A6C2C618499DA6D595FD9188EF6D06CDE11F" downloadHash="DFBF142C68D610D21FA1D259AD13A7D55884EE90" name="deep woods.trx" dlsize="3255197" size="15330900" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="DirectoryEntry" hash="B0D8CDE9A8C553C921A442BEE751DFBAC8B64A3C" downloadHash="D3E2D13FCB271962C89D9DD89563D67A3C6D8BC8" name="keczulla copper residence 2.trx" dlsize="23793" size="23811" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
@@ -252,7 +246,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="1FAA8A47617827E1A342A52D3E4343FBC37065BC" downloadHash="2C25AE4348336AF25FA9C0E734D8E20A201EBF93" name="briarwood cave.trx" dlsize="200828" size="203141" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="170C77B22EBEA7C9E3B72D1CD6533A2E8C960D2D" downloadHash="A1D9CA8A0F03904CEF19D0DA86524B87A5AC34A4" name="briarwood cave.trx" dlsize="154910" size="156574" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -300,7 +294,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="344A10C627052EB8049967FA36E02821B663119A" downloadHash="CB44F900CA4A6352A47B9F8CF8BE8F9830BE09D3" name="amn.trx" dlsize="4708830" size="23773061" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="4848479B1E5FC69424187E6CFC6C477965B8AB4E" downloadHash="62D0D79703A8849F5732A918EDD7BD5616B9219F" name="amn.trx" dlsize="4718360" size="23780015" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -757,12 +751,6 @@
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="D6A1671A75B6AF663E165E45EA6451907AB8607F" downloadHash="ADCD020996B33266D17C8217C28FC6A61432F863" name="the gilded spur.trx" dlsize="83150" size="83700" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="1E9323B484738C65D16B7296A0B8F8092D2C421F" downloadHash="E58E264578AFF49E5F805A799AC37BFC88DF0024" name="deep woods cave.trx" dlsize="68109" size="68180" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1837,6 +1825,42 @@
     </server-ref>
   </resource>
   <resource type="Hak" hash="8801E3AC3D63D47A122998F00D398352CA3449AE" downloadHash="57440B88D489CAD3B400A7B456703024983F9876" name="alfa_amn_tiles.hak" dlsize="3759956" size="45778829" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="4E72A6C2C618499DA6D595FD9188EF6D06CDE11F" downloadHash="DFBF142C68D610D21FA1D259AD13A7D55884EE90" name="generic deep woods.trx" dlsize="3255197" size="15330900" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="9FD1CA93F06BABD1EC8DF2B72FA2E404E786C54F" downloadHash="F62EB0C91B4A54700AC3BB2C4E4BCD1A1D817AE8" name="generic woods to hills, bronze.trx" dlsize="1596723" size="11060692" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="1E9323B484738C65D16B7296A0B8F8092D2C421F" downloadHash="E58E264578AFF49E5F805A799AC37BFC88DF0024" name="generic deep woods cave.trx" dlsize="68109" size="68180" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="830F2BDD4D28B6682CF930626ADB059731FC3554" downloadHash="D28FBFA79EADC6A419F52766A71FAA54565CD1E8" name="generic woods stream rocks.trx" dlsize="3086057" size="14774550" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="9254E068798E7F5691C5C8EA1B630CC41E48707D" downloadHash="3EBF655608DF83618AE4644DAA94FF61537EC832" name="briarwood.trx" dlsize="2935873" size="13917966" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="2E7E6B3C39CBAB2C514A2587E0D6BB089CAC216C" downloadHash="1B056E5ACD6ADB1EC0F885F096E65151CC9D4F33" name="hunting area asnakewood.trx" dlsize="1815791" size="10345240" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
