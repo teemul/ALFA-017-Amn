@@ -294,7 +294,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="4848479B1E5FC69424187E6CFC6C477965B8AB4E" downloadHash="62D0D79703A8849F5732A918EDD7BD5616B9219F" name="amn.trx" dlsize="4718360" size="23780015" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="1E1C522797415DCC2C8E67DDC0C9D3F3FB52F31B" downloadHash="C0F8AC0654834BD3C9CEDA589A84EE5D34F51BE9" name="amn.trx" dlsize="4735827" size="23805555" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -517,12 +517,6 @@
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="2BFFC29235496EB936CBF0BA285D6D38E9F513CD" downloadHash="39477290B964103B4664576D9C84151E2049909E" name="the sleepy toad upstairs.trx" dlsize="76504" size="77085" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
-  <resource type="DirectoryEntry" hash="36DF6ABFA9E75622F8C228313B0C1CDE3E94A08B" downloadHash="93A19DBAC56B7E539C58A25AC142C803CF407DE9" name="snakewood cave.trx" dlsize="115731" size="837251" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -792,7 +786,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="74F56BF25FF82D7BA0E7B8963C4E3689BB5620C6" downloadHash="8EFEB994497737AF38058195F7BBE7487CEC33D7" name="weng water bridge.trx" dlsize="2315272" size="13663887" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="B40A05CE2D6FA2E44EABF0B2D4D1ACAFA2752976" downloadHash="2FDB24FD102ED5C6401501DD9B202C4192659F64" name="weng water bridge.trx" dlsize="2442362" size="13780284" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1200,12 +1194,6 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="B72370B712ED9A0A6E3FDE644C8FD6EB45A4C64D" downloadHash="33B75F85194F16A0ABF7C818B5E89EA128A7F24D" name="random rural .trx" dlsize="2140424" size="12343423" critical="false" exclude="false" urlOverride="">
-    <server-ref>
-      <string>0</string>
-      <string>1</string>
-    </server-ref>
-  </resource>
   <resource type="DirectoryEntry" hash="FAAA2B5B336928A0B54AA9274086ADE7AA2B660F" downloadHash="D8B85D80CE37C07E854F78EEB04163A8CF517099" name="warehouse.trx" dlsize="115278" size="115399" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
@@ -1266,7 +1254,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="DFA40521E3A7B5602CE2242CD99799AD85ADC37F" downloadHash="E5B6B9409622365AA2DD59C4520ACB8611B31727" name="random plains.trx" dlsize="1410743" size="9266832" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="BDB8896E9776D24891E212F69122856D3708DCD8" downloadHash="B1A935435828C5EF1FE0BE665C3761CCD755C36E" name="random plains.trx" dlsize="1508166" size="9393292" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1716,67 +1704,67 @@
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="1F9AA5906B6A4EC644DFDBFBFA6F1F6B45F7ACFB" downloadHash="7872CBF0CFABD14CA703B63B658427243EF87F3A" name="alfa2_acr.hak" dlsize="2568549" size="80288265" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="83E949B499165C39378FC0E7FF5E658B9AC0877A" downloadHash="7872CBF0CFABD14CA703B63B658427243EF87F3A" name="alfa2_acr.hak" dlsize="2568549" size="96739473" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="4A156F5C9804C2E204F4F78C1677AA6561FDC7AC" downloadHash="4416F32FC955DD26CA57945C508043132CABBB53" name="alfa2_2da.hak" dlsize="333298" size="16420362" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="5EC4D84E15C355D8EE98E6BDB3DA888CD2E82BD1" downloadHash="4416F32FC955DD26CA57945C508043132CABBB53" name="alfa2_2da.hak" dlsize="333298" size="16649309" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="201635AE58C00B0CC97F9BBBE57864B0CA5F8E00" downloadHash="611EC5163E009613593C3FEB8306D317974948EF" name="alfa2_gui.hak" dlsize="9611822" size="36209771" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="F835AC5FFB1F75C21DEFE1A5CDCECC4E409A6134" downloadHash="611EC5163E009613593C3FEB8306D317974948EF" name="alfa2_gui.hak" dlsize="9611822" size="37659839" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="8282F3F7DF90FACDCA67676BFFC258E69CA63540" downloadHash="23499552CA133495992C01983AD8521B29FB399F" name="alfa_creatures.hak" dlsize="113423149" size="349457226" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="28DC623B45E66EF4A36E3F41ED17215B671F1A10" downloadHash="23499552CA133495992C01983AD8521B29FB399F" name="alfa_creatures.hak" dlsize="113423149" size="369280214" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="D0426E4000725E2029DDD127FBE7797687824B10" downloadHash="23E6ED848FCF11AB104B6944723040B86495F8ED" name="alfa_fx.hak" dlsize="82210911" size="212919050" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="84595F1D53B5AA4335229B5DC3ADBC524F3910D9" downloadHash="23E6ED848FCF11AB104B6944723040B86495F8ED" name="alfa_fx.hak" dlsize="82210911" size="212930160" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="03643D3B3051DD6940F24B755DDB2DB0BED08334" downloadHash="CF8B3E69808E8FBB8F4C0A454E995F4F00095FD2" name="alfa_items.hak" dlsize="147401622" size="778586269" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="F9BBB60D0D9EE974805A128A59C4861D3D67323C" downloadHash="CF8B3E69808E8FBB8F4C0A454E995F4F00095FD2" name="alfa_items.hak" dlsize="147401622" size="808081311" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="784274161288FC4B9995ECED049854FA339F7E7C" downloadHash="A7EF18A88C41B309449A973B38A00E2F59AACDAA" name="alfa_placeables.hak" dlsize="170812946" size="525426450" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="E80F87FDC6DFBABFEA8F8C64CADE3BDB9D407556" downloadHash="A7EF18A88C41B309449A973B38A00E2F59AACDAA" name="alfa_placeables.hak" dlsize="170812946" size="525786474" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="2D51CCB483799C711EB6A8346A46379D027AB65E" downloadHash="D42FDC4C9AD962F7463DD49B0B41E674859348FE" name="alfa_terrain.hak" dlsize="8540283" size="24041952" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="39C095A14D7B3D155AC18ACD6713E2D4EFF582C9" downloadHash="D42FDC4C9AD962F7463DD49B0B41E674859348FE" name="alfa_terrain.hak" dlsize="8540283" size="24041952" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="62BE353DF9564645CB4BBCB04F7B919D20DAC9FE" downloadHash="12481D5302C0456B8681788C38F1EDE03E0B87A5" name="alfa_tiles.hak" dlsize="100834345" size="322358632" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="E2320D53514D99693082C08867CA53DD30D15EEF" downloadHash="12481D5302C0456B8681788C38F1EDE03E0B87A5" name="alfa_tiles.hak" dlsize="100834345" size="367960228" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="DE331C4EDC08D34F717836A3338E72F57A71347C" downloadHash="64E6CEEEE03E3DB66584643F4CAAC4036D083BC3" name="alfa2_templates.hak" dlsize="119083" size="6960230" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="80A32F4D865B47A1B25DF62B13C3B5AF56AB70F0" downloadHash="64E6CEEEE03E3DB66584643F4CAAC4036D083BC3" name="alfa2_templates.hak" dlsize="119083" size="8446141" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
     </server-ref>
   </resource>
-  <resource type="Hak" hash="2B8B90BC76263ADBE4FF7F3774BD83CC44799B8A" downloadHash="644681D5CF36A949BD489C7E3C803D5C50DDD1DA" name="alfa2_pr.hak" dlsize="20859473" size="518506734" critical="false" exclude="false" urlOverride="">
+  <resource type="Hak" hash="68DDE63C71D2BFCD5CBE16AB350FEF57264D3B07" downloadHash="644681D5CF36A949BD489C7E3C803D5C50DDD1DA" name="alfa2_pr.hak" dlsize="20859473" size="518506734" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>2</string>
       <string>3</string>
@@ -1848,7 +1836,7 @@
       <string>1</string>
     </server-ref>
   </resource>
-  <resource type="DirectoryEntry" hash="830F2BDD4D28B6682CF930626ADB059731FC3554" downloadHash="D28FBFA79EADC6A419F52766A71FAA54565CD1E8" name="generic woods stream rocks.trx" dlsize="3086057" size="14774550" critical="false" exclude="false" urlOverride="">
+  <resource type="DirectoryEntry" hash="580D66C8E5CEEB86D50E8DA28C95A586F7E55730" downloadHash="AEF8C2CCDDF01F0D6AE84B693C90AD803F31C277" name="generic woods stream rocks.trx" dlsize="3073914" size="14754623" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
@@ -1861,6 +1849,24 @@
     </server-ref>
   </resource>
   <resource type="DirectoryEntry" hash="2E7E6B3C39CBAB2C514A2587E0D6BB089CAC216C" downloadHash="1B056E5ACD6ADB1EC0F885F096E65151CC9D4F33" name="hunting area asnakewood.trx" dlsize="1815791" size="10345240" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="B72370B712ED9A0A6E3FDE644C8FD6EB45A4C64D" downloadHash="33B75F85194F16A0ABF7C818B5E89EA128A7F24D" name="hunting area central plains.trx" dlsize="2140424" size="12343423" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="3A068DDCA7225E2BB0C349F232BE3BACCC67029C" downloadHash="D526BC5F0F1A005D60B12C58847332FAC881B5C1" name="a grasslands.trx" dlsize="7314671" size="22580430" critical="false" exclude="false" urlOverride="">
+    <server-ref>
+      <string>0</string>
+      <string>1</string>
+    </server-ref>
+  </resource>
+  <resource type="DirectoryEntry" hash="F0929DDB824C5C57076B6287FABE985560D1DC41" downloadHash="5F154B039BF33437EE48F30CCA2754A6F6F5EF44" name="generic woods strm r cave.trx" dlsize="111874" size="832604" critical="false" exclude="false" urlOverride="">
     <server-ref>
       <string>0</string>
       <string>1</string>
